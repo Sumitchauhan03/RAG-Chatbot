@@ -1,4 +1,4 @@
-# RAG Chatbot with Streaming
+# RAG Chatbot
 
 ## Overview
 This project implements a Retrieval-Augmented Generation (RAG) chatbot using Streamlit, FAISS, and transformer-based models. It allows users to upload documents (PDF or TXT), processes them into semantic chunks, builds a vector index, and enables question-answering over the document with streaming responses from a language model.
@@ -7,18 +7,6 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot using Str
 
 ## Architecture & Flow
 
-```mermaid
-graph TD;
-    A[User Uploads Document] --> B[Text Extraction & Cleaning];
-    B --> C[Chunking (Sentence-aware)];
-    C --> D[Embedding Generation];
-    D --> E[FAISS Vector Index];
-    E --> F[Query Embedding];
-    F --> G[Similarity Search (Top-K Chunks)];
-    G --> H[Prompt Construction];
-    H --> I[LLM Generation (Streaming)];
-    I --> J[Response Displayed to User];
-```
 
 - **Document Ingestion:** PDF/TXT files are uploaded and cleaned.
 - **Chunking:** Text is split into sentence-aware chunks (~200 words).
@@ -105,10 +93,9 @@ Bot: The main objective of the document is to provide an overview of the AI trai
 
 ---
 
-## Screenshots / Demo
+## Demo
 
-> _Add screenshots of the UI and sample outputs here._
-> _Or provide a link to a demo video._
+https://drive.google.com/file/d/1Iazbi8IxASH4Fmrk_ENY-YQAMCKJ3v_4/view?usp=sharing
 
 ---
 

@@ -84,7 +84,7 @@ def build_prompt(query, retrieved_chunks):
 
 def main():
     st.set_page_config(page_title="RAG Chatbot", layout="wide")
-    st.title("RAG Chatbot with Streaming")
+    st.title("RAG Chatbot")
 
     # Sidebar
     st.sidebar.title("Info")

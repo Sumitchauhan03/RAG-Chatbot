@@ -93,10 +93,9 @@ Bot: The main objective of the document is to provide an overview of the AI trai
 
 ---
 
-## Screenshots / Demo
+## Demo
 
-> _Add screenshots of the UI and sample outputs here._
-> _Or provide a link to a demo video._
+https://drive.google.com/file/d/1Iazbi8IxASH4Fmrk_ENY-YQAMCKJ3v_4/view?usp=sharing
 
 ---
 

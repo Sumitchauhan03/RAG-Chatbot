@@ -1,4 +1,4 @@
-# RAG Chatbot with Streaming
+# RAG Chatbot
 
 ## Overview
 This project implements a Retrieval-Augmented Generation (RAG) chatbot using Streamlit, FAISS, and transformer-based models. It allows users to upload documents (PDF or TXT), processes them into semantic chunks, builds a vector index, and enables question-answering over the document with streaming responses from a language model.

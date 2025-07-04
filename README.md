@@ -7,7 +7,7 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot using Str
 
 ## Architecture & Flow
 
-```mermaid
+
 graph TD;
     A[User Uploads Document] --> B[Text Extraction & Cleaning];
     B --> C[Chunking (Sentence-aware)];
